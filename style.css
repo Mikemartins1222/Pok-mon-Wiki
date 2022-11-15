@@ -1,0 +1,104 @@
+
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+*{
+
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+   
+}
+
+#logo-site{
+
+    width: 100px;
+}
+
+
+#img-banner{
+
+    width: 100vw;
+}
+
+.conteiner-apresentacao{
+
+   
+    padding-top: 2em;
+    padding-bottom: 10em;
+    border: 1px solid black;
+}
+
+
+#conteiner-apresentacao h1{
+    padding-top: 3em;
+    padding-bottom: .6em;
+    font-size: 30pt;
+    
+}
+
+
+#conteiner-apresentacao p{
+    
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 6em;
+    font-size: 12pt;
+    
+}
+
+footer{
+
+   
+    background-color: #333333;
+    width: 100vw;
+    height: 30vh;
+}
+
+
+#footer-busca{
+
+    position: relative;
+    bottom: -350px;
+    background-color: #333333;
+
+}
+
+
+
+.list-container{
+
+    
+    padding-top: 3em;
+    padding-left: 4em;
+    font-size: 10pt;
+    color: #ffffff;
+  
+
+}
+
+.nav-pages{
+
+
+    position: relative;
+    left: 32vw;
+    
+}
+
+.nav-p{
+
+    border: 1px solid white;
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.nav-p:hover{
+
+    color: #ffffff;
+    background-color: #ffe164;
+}
+
+
+
+
+
+

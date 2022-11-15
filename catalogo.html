@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Site yu-gi-oh</title>
+</head>
+<header>
+    <nav class="navbar  navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img id="logo-site" class="navbar-brand" src="_img/logo_site.png" href="#"></img>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Catálogo</a>
+              </li>
+              <a class="nav-link" href="busca.html">Busca</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<body>
+<main>
+<section class="apresentacao">
+<h1 class="text-center">Lista de Pokémons</h1>
+<div id="conteiner-apresentacao" class="row justify-content-center">
+</div>
+</section>
+</main> 
+<div class="modal fade" id="charModal" tabindex="-1" aria-labelledby="charModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="charModalLabel">Pokémon</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div id="modal-body" class="modal-body">
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="nav-pages">
+     <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li id="page-2" class="page-item"><button type="button" class ="nav-p" id="nav-2">2</button></li>
+        <li id="page-3" class="page-item"><button type="button" class ="nav-p" id="nav-3">3</button></li>
+        <li id="page-4" class="page-item"><button type="button" class ="nav-p" id="nav-4">4</button></li>
+        <li id="page-5" class="page-item"><button type="button" class ="nav-p" id="nav-5">5</button></li>
+        <li id="page-6" class="page-item"><button type="button" class ="nav-p" id="nav-6">6</button></li>
+        <li id="page-7" class="page-item"><button type="button" class ="nav-p" id="nav-7">7</button></li>
+        <li id="page-8" class="page-item"><button type="button" class ="nav-p" id="nav-8">8</button></li>
+        <li id="page-9" class="page-item"><button type="button" class ="nav-p" id="nav-9">9</button></li>
+        <li id="page-10" class="page-item"><button type="button" class ="nav-p" id="nav-10">10</button></li>
+        <li id="page-11" class="page-item"><button type="button" class ="nav-p" id="nav-11">11</button></li>
+        <li id="page-12" class="page-item"><button type="button" class ="nav-p" id="nav-12">12</button></li>
+        <li id="page-13" class="page-item"><button type="button" class ="nav-p" id="nav-13">13</button></li>
+        <li id="page-14" class="page-item"><button type="button" class ="nav-p" id="nav-14">14</button></li>
+        <li id="page-15" class="page-item"><button type="button" class ="nav-p" id="nav-15">15</button></li>
+        <li id="page-16" class="page-item"><button type="button" class ="nav-p" id="nav-16">16</button></li>
+        <li id="page-17" class="page-item"><button type="button" class ="nav-p" id="nav-17">17</button></li>
+        <li id="page-18" class="page-item"><button type="button" class ="nav-p" id="nav-18">18</button></li>
+        <li id="page-19" class="page-item"><button type="button" class ="nav-p" id="nav-19">19</button></li>
+        <li id="page-20" class="page-item"><button type="button" class ="nav-p" id="nav-20">20</button></li>
+      </ul>
+     </nav>
+  </div>
+  <footer>
+    <div class="list-container">
+    <h4>The Pokémon Company</h4>
+    <lu class="footer-list"/>
+    <li class="footer-row">Guia Pokémon para pais</li>
+    <li class="footer-row">Serviço ao consumidor</li>
+    <li class="footer-row">Sobre nossa empresa</li>
+    <li class="footer-row">Selecione um país ou região </li>
+    <li class="footer-row">Pokémon Site de Imprensa</li>
+    </lu>
+    </div>
+    </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="catalogo.js"></script>
+</body>
+</html>
